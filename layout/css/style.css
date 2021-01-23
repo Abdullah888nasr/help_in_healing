@@ -1,0 +1,193 @@
+/* Start Header*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-weight: bold;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    color: #fff;
+}
+div,h1,h2,h3,p,fieldset{text-align: center;}
+a{text-decoration: none;}
+input, select, select option, table, table tr td {color: #000;}
+body{
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: #31a;
+    box-shadow: 5px 5px 5px #fff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 15px;
+    z-index: 2;
+}
+nav a, nav span{
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 0;
+}
+nav span{margin-left: 40%;}
+nav a:hover{color: #333;background: #fff;}
+
+/* End Header*/
+
+/* Start Login */
+
+.image img {width: 100px;height: 100px;}
+.image{
+    margin: auto;
+    width: 8%;
+    margin-top: 80px;
+}
+.register{min-height: 200px;}
+.login-form{width: 45%;float: left;}
+.signup-form{float: right;width: 45%;}
+fieldset {
+    padding: 2%;
+    width: 70%;
+    margin: 10px auto 0 auto;
+    background-color: #31a;
+}
+.btnsign {
+    padding: 10px;
+    background-color: #fff;
+    color: #31a;
+    font: normal bold 120%/100% Arial,Tahoma;
+    width: 35%;
+    margin: auto;
+}
+.not-text,.signup-form input[type="text"]{
+    padding: 5px;
+    width: 70%;
+    margin-bottom: 15px;
+    height: 25px;
+    font: normal bold 16px/16px Arial,Tahoma;
+}
+.signup-form input[type="text"]{width:33%;}
+h2 {margin-bottom: 10px;}
+hr {margin-bottom: 10px; border: 1px solid #fff}
+.forget-password{margin-top: 10px;display: block;}
+
+/* End Login */
+
+/*Start Home*/
+
+.container {margin: 200px auto;}
+.container .title{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container form select {
+    width: 320px;
+    margin: 10px;
+    height: 45px;
+}
+
+.container form input{
+    padding: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    background: #31a;
+    width: 200px;
+    color: #fff;
+}
+
+/*End Home*/
+
+/* Start Dashboard*/
+.adds{width: 85%;margin-top: 100px;}
+.add-div, .edit-div{
+    margin-left: 170px;
+    width: 40%;
+    display: inline-block;
+}
+.add-link{
+    background-color: #31a;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.edit-div{
+    margin-left: 270px;
+    width: 60%;
+    margin-top: 100px;
+}
+.add-div .add-btn, .edit-div .add-btn{
+    background-color: #31a;
+    padding: 5px 10px;
+    color: #fff;
+}
+.add-div input, .add-div select, .edit-div input, .edit-div select{
+    padding-left: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+    font: normal bold 16px/16px Arial,Tahoma;
+}
+.add-div-admin{float: right;margin-left: 0;}
+.search-div{
+    width: 1000px;
+    margin: 100px 0 20px 170px;
+    font: normal bold 16px/16px Arial,Tahoma;
+}
+.search-div .search-engine{
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+}
+.search-div input, select{padding: 5px;font: normal bold 16px/16px Arial,Tahoma;}
+#search-output{
+    max-width: 74%;
+    max-height: 500px;
+    margin-left: 170px;
+}
+.home-table{margin: 100px 0 0 170px;}
+table{background-color: #fff; width: 1000px;}
+td, th{padding: 10px;}
+tr th{background-color: #31a;border-radius:0}
+table tr td a{padding: 3px 5px;}
+table tr td .editDoctor{background-color: #44f;}
+table tr td .deleteDoctor{background-color: #77f;}
+h1{margin-bottom: 20px;}
+
+/* End Dashboard*/
+
+/*Start About*/
+
+.about-us{
+    padding: 20px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.connected{
+    padding: 20px;
+    margin-top: 80px;
+    font-size: 60px;
+}
+
+/*End About*/
+
+/* Start Footer */
+
+.footer {
+    padding: 10px 0;
+    background-color: #31a;
+    width: 100%;
+    margin-top: 382px;
+}
+.footer .end{
+    font-size: 20px;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+.footer .social{margin: auto;width: 207px;}
+
+/* End Footer */
