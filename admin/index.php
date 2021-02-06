@@ -27,7 +27,6 @@
             endif;
         else:
             echo '<script>alert("Two password is not identical.")</script>';
-            echo $password . ' ' . $adcpassword . '<br>';
         endif;
     elseif(isset($_POST['editDoctor'])):
         $doctorId = $_POST['doctorId'];
@@ -146,8 +145,9 @@
                     <?php
                         tableSearch($conn, "SELECT * FROM doctors");
                     ?>
+                    <a href="index.php?action=add" class="add-link">Add Admin or Doctor</a>
                 </div>
-                <a href="index.php?action=add" class="add-link">Add Admin or Doctor</a>
+                
         <?php
         endswitch; 
     else:?>
@@ -158,8 +158,8 @@
             <?php
                 tableSearch($conn, "SELECT * FROM doctors");
             ?>
+            <a href="index.php?action=add" class="add-link">Add Admin or Doctor</a>
         </div>
-        <a href="index.php?action=add" class="add-link">Add Admin or Doctor</a>
     <?php endif;
         require_once "includes/templates/footer.php"; 
     ?>

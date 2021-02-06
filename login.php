@@ -48,26 +48,22 @@
     </div>
     <div class="register">
         <form method="POST" action="login.php" class="login-form">
-            <fieldset>
-                <h2>Login</h2>
-                <hr>
-                <input type="email" placeholder="Email" class="not-text" name="email" value = "<?php if(isset($email)){ echo $email;} ?>" autocomplete="off" required>
-                <input type="password" placeholder="Password" class="not-text" name="pass" value = "<?php if(isset($pass)){ echo $pass;} ?>" autocomplete="new-password" required>
-                <input type="submit" value="Login" class="btnsign" name="login"><br>
-                <a href="#" class="forget-password">Forget Passowrd?</a>
-            </fieldset>
+            <h2>Login</h2>
+            <hr>
+            <input type="email" placeholder="Email" class="not-text" name="email" value = "<?php if(isset($email)){ echo $email;} ?>" autocomplete="off" required>
+            <input type="password" placeholder="Password" class="not-text" name="pass" value = "<?php if(isset($pass)){ echo $pass;} ?>" autocomplete="new-password" required>
+            <input type="submit" value="Login" class="btnsign" name="login"><br>
+            <a href="#" class="forget-password">Forget Passowrd?</a>
         </form>
-        <form method="POST" action="login.php" class="signup-form">
-            <fieldset>
-                <h2>Sign up</h2>
-                <hr>
-                <input type="text" placeholder="First Name" name="fname" value = "<?php if(isset($fname)){ echo $fname;} ?>" autocomplete="off" required>
-                <input type="text" placeholder="Last Name" name="lname" value = "<?php if(isset($lname)){ echo $lname;} ?>" autocomplete="off" required>
-                <input type="email" placeholder="Email" class="not-text" name="email" value = "<?php if(isset($email)){ echo $email;} ?>" required>
-                <input type="password" placeholder="Password" class="not-text" name="pass" value = "<?php if(isset($pass)){ echo $pass;} ?>" autocomplete="new-password" required>
-                <input type="password" placeholder="Confirm Password" class="not-text" name="cpass" value = "<?php if(isset($cpass)){ echo $cpass;} ?>" autocomplete="new-password" required>
-                <input type="submit" value="Sign up" class="btnsign" name="sign">
-            </fieldset>
+        <form method="POST" action="login" class="signup-form">
+            <h2>Sign up</h2>
+            <hr>
+            <input type="text" placeholder="First Name" name="fname" value = "<?php if(isset($fname)){ echo $fname;} ?>" autocomplete="off" required>
+            <input type="text" placeholder="Last Name" name="lname" value = "<?php if(isset($lname)){ echo $lname;} ?>" autocomplete="off" required>
+            <input type="email" placeholder="Email" class="not-text" name="email" value = "<?php if(isset($email)){ echo $email;} ?>" required>
+            <input type="password" placeholder="Password" class="not-text" name="pass" value = "<?php if(isset($pass)){ echo $pass;} ?>" autocomplete="new-password" required>
+            <input type="password" placeholder="Confirm Password" class="not-text" name="cpass" value = "<?php if(isset($cpass)){ echo $cpass;} ?>" autocomplete="new-password" required>
+            <input type="submit" value="Sign up" class="btnsign" name="sign">
         </form>
     </div>
     <?php require_once 'includes/templates/footer.php';

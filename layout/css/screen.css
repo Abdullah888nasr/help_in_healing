@@ -1,0 +1,108 @@
+@media (max-width : 1150px) {
+    .register form{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .register input, .register input[type="text"]{
+        font-size: 13px;
+    }
+    #search-output tr{
+        font-size: 11px;
+    }
+    #search-output tr th, td{
+        padding: 5px;
+    }
+    .connected, .about-us{
+        font-size: 50px;
+    }
+}
+@media (max-width : 900px) {
+    .connected, .about-us{
+        font-size: 35px;
+    }
+}
+@media (max-width : 780px) {
+    .register form{
+        padding: 15px;
+    }
+    .register input, .register input[type="text"]{
+        font-size: 10px;
+        height: 15px;
+    }
+    .btnsign {
+        line-height: 10%;
+    }
+    .container .title{
+        font-size: 17px;
+    }
+    #search-output tr th, tr td{
+        padding: 3px;
+    }
+    #search-output tr{
+        font-size: 8px;
+    }
+    #search-output .add-link {
+        font-size: 12px;
+    }
+    .search-div .search-engine{
+        font-size: 12px;
+        height: 20px;
+    }
+}
+@media (max-width : 620px) {
+    nav a{
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .image{
+        visibility: hidden;
+        margin-top: 0px;
+        width: 70px;
+        height: 70px;
+    }
+    .register form{
+        float: none;
+        width: 60%;
+        margin: 10px auto;
+    }
+    .register input, .register input[type="text"]{
+        font-size: 16px;
+        height: 25px;
+    }
+    .connected, .about-us{
+        font-size: 30px;
+    }
+    .footer .end{
+        font-size: 15px;
+    }
+}
+@media (max-width : 480px) {
+    nav{
+        padding: 10px;
+    }
+    nav a{
+        font-size: 10px;   
+    }
+    .register form{
+        margin-left: 70px;
+    }
+    .register input, .register input[type="text"]{
+        font-size: 13px;
+        height: 20px;
+    }
+    #search-output tr th, tr td{
+        padding: 2px;
+    }
+    #search-output table{
+        width: 99%;
+    }
+    #search-output .add-link {
+        margin-left: 2.5%;
+    }
+    .connected, .about-us{
+        font-size: 20px;
+    }
+    .footer .end{
+        font-size: 10px;
+    }
+}

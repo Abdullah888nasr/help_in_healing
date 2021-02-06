@@ -20,7 +20,7 @@
                                 <td>' . $row['phone'] . '</td>
                                 <td>' . $row['department'] . '</td>
                                 <td>
-                                    <a href="index.php?action=edit&doctorId='.$row['doctorId'].'" class="editDoctor">Edit</a>
+                                    <a href="index.php?action=edit&doctorId='.$row['doctorId'].'" class="editDoctor">*</a>
                                     <a href="index.php?action=delete&doctorId='.$row['doctorId'].'"  class="deleteDoctor confirm">x</a>
                                 </td>
                             </tr>';

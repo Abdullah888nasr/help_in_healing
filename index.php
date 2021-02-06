@@ -2,9 +2,13 @@
     require_once "includes/connect.php";
     require_once "includes/templates/header.php";
     if($_SERVER['REQUEST_METHOD'] === 'POST'):
-        $_SESSION['city'] = $_POST['doctorCity'];
-        $_SESSION['department'] = $_POST['doctorDepart'];
-        header('Location: table.php');
+        if(isset($_SESSION['firstname'])):
+            $_SESSION['city'] = $_POST['doctorCity'];
+            $_SESSION['department'] = $_POST['doctorDepart'];
+            header('Location: table.php');
+        else:
+            echo '<script>alert("You are not login")</script>';
+        endif;
     endif;
 ?>
 <div class="container">
