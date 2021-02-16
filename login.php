@@ -1,5 +1,5 @@
 <?php
-    require_once "includes/connect.php";
+    include "includes/connect.php";
     require_once "includes/templates/header.php";
     if(isset($_GET['logout'])):
         session_destroy();
